@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Sangmin Yoon</title>
-    <meta name="description" content="창의적인 개발자의 포트폴리오입니다. 다양한 프로젝트와 기술 스택을 소개합니다.">
+    <meta name="description" content="창의적인 전문가의 포트폴리오입니다. 다양한 프로젝트와 기술 스택을 소개합니다.">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <div id="root"></div>
+
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
@@ -212,16 +214,57 @@ There is no dedicated backend server; instead, the system uses simple Python scr
                 </div>
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="#" alt="add" id="profile-img">
+                        <img src="images/math.png" alt="math" id="profile-img">
                     </div>
                     <div class="project-content">
-                        <h3></h3>
-                        <p>...</p>
+                        <h3>Math-solving</h3>
+                        <p>This project involves solving math problems from uploaded images and recommending similar problems based on preprocessed data categorized by curriculum units.</p>
                         <div class="project-tags">
-                            <span class="tag">...</span>
+                            <span class="tag">OCR</span>
+                            <span class="tag">Pix2Text</span>
+                            <span class="tag">KoELECTRA</span>
+                            <span class="tag">recommendation</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/vivamini7/Nolsu.git" class="project-link">
+                            <a href="https://github.com/vivamini7/math-solving.git" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/gemma2.png" alt="math" id="profile-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>20 Questions</h3>
+                        <p>This project was conducted during the 5th Google Bootcamp, where I fine-tuned the Gemma 2 model to develop an LLM-based chatbot capable of playing the 20 Questions game.</p>
+                        <div class="project-tags">
+                            <span class="tag">Gemma 2</span>
+                            <span class="tag">Finetuning</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/vivamini7/20-questions.git" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/bitcoin.png" alt="math" id="profile-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>Bitcoin-prediction</h3>
+                        <p>This project analyzes public sentiment based on Bitcoin-related news and user opinions, and predicts future price trends using a BiLSTM model</p>
+                        <div class="project-tags">
+                            <span class="tag">Sentiment analysis</span>
+                            <span class="tag">BERT</span>
+                            <span class="tag">BiLSTM</span>
+                            <span class="tag">GRU</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/vivamini7/bitcoin-buy-and-stay.git" class="project-link">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>
@@ -245,7 +288,7 @@ There is no dedicated backend server; instead, the system uses simple Python scr
                         <div class="timeline-item">
                             <div class="timeline-date">2021 - 2022</div>
                             <div class="timeline-content">
-                                <h4>Completed mandatory military service</h4>
+                                <h4>Completed mandatory military</h4>
                                 <p class="company">ARMY</p>
                                 <p class="description">
                                     Completed mandatory military service as a combat medic, supporting military healthcare operations and emergency response.
@@ -253,7 +296,7 @@ There is no dedicated backend server; instead, the system uses simple Python scr
                             </div>
                         </div>
                         <div class="timeline-item">
-                            <div class="timeline-date">2023 spring</div>
+                            <div class="timeline-date">2022 winter</div>
                             <div class="timeline-content">
                                 <h4>Administrative intern</h4>
                                 <p class="company">District Office</p>
@@ -263,12 +306,12 @@ There is no dedicated backend server; instead, the system uses simple Python scr
                             </div>
                         </div>
                         <div class="timeline-item">
-                            <div class="timeline-date">2024</div>
+                            <div class="timeline-date">2023 spring</div>
                             <div class="timeline-content">
-                                <h4>Yonsei Likelion 11th</h4>
-                                <p class="company">Startup Company</p>
+                                <h4>Intern at Nano ibs</h4>
+                                <p class="company">Yonsei University Nano ibs</p>
                                 <p class="description">
-                                    Participated as an 11th member of 'LikeLion' (LIKELION), contributing across frontend development, planning, and design. Successfully completed the program and delivered a final project.
+                                    Participated as an intern, studying various research papers and conducting experiments on the separation and filtration of metallic nanomolecules.
                                 </p>
                             </div>
                         </div>
@@ -320,15 +363,83 @@ There is no dedicated backend server; instead, the system uses simple Python scr
                     </div>
                 </div>
             </div>
+            <div class="experience-category">
+                    <h3><i class="fas fa-graduation-cap"></i> Activities</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date"> 2019 </div>
+                            <div class="timeline-content">
+                                <h4>Powers</h4>
+                                <p class="company">Yonsei University badminton club</p>
+                                <p class="description">
+                                    Participated in various activities as a member of the university badminton club, including attending competitions.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2023-1 </div>
+                            <div class="timeline-content">
+                                <h4>NanoSEA</h4>
+                                <p class="company">Yonsei University Nano ibs Institute</p>
+                                <p class="description">
+                                    Studied materials-related research papers at Nano IBS and participated in academic society activities.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2023-spring </div>
+                            <div class="timeline-content">
+                                <h4>Badminton romance</h4>
+                                <p class="company">Intercollegiate badminton Club</p>
+                                <p class="description">
+                                    Participated in various activities as a member of the university badminton club, including attending competitions.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2023-present </div>
+                            <div class="timeline-content">
+                                <h4>Vital fc</h4>
+                                <p class="company">Yonsei University football club</p>
+                                <p class="description">
+                                    Participated in various competitions as a member of the football club and served as team captain in 2024.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2024</div>
+                            <div class="timeline-content">
+                                <h4>Yonsei Likelion 11th</h4>
+                                <p class="company">Likelion Company club</p>
+                                <p class="description">
+                                    Participated as an 11th member of 'LikeLion' (LIKELION), contributing across frontend development, planning, and design. Successfully completed the program and delivered a final project.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2024 - 2025-1</div>
+                            <div class="timeline-content">
+                                <h4>Prometheus</h4>
+                                <p class="company">Intercollegiate AI Club</p>
+                                <p class="description">
+                                    Participated in 4,5 AI-driven projects and won awards in various hackathon competitions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+
+    
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-header">
                 <h2>Contact</h2>
-                <p>Open to collaboration — feel free to contact me with any questions or ideas.</p>
+                <p>Open to collaboration feel free to contact me with any questions</p>
             </div>
             <div class="contact-content">
                 <div class="contact-info">
@@ -365,16 +476,13 @@ There is no dedicated backend server; instead, the system uses simple Python scr
                     <div class="social-links">
                         <h4>Social media</h4>
                         <div class="social-icons">
-                            <a href="#" class="social-icon">
+                            <a href="https://www.linkedin.com/feed/" class="social-icon">
                                 <i class="fab fa-linkedin"></i>
                             </a>
-                            <a href="#" class="social-icon">
+                            <a href="https://github.com/vivamini7" class="social-icon">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="#" class="social-icon">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="#" class="social-icon">
+                            <a href="https://www.instagram.com/viva_mini7/" class="social-icon">
                                 <i class="fab fa-instagram"></i>
                             </a>
                         </div>
@@ -405,6 +513,7 @@ There is no dedicated backend server; instead, the system uses simple Python scr
             </div>
         </div>
     </section>
+    
 
     <!-- Footer -->
     <footer class="footer">
@@ -426,16 +535,13 @@ There is no dedicated backend server; instead, the system uses simple Python scr
                 <div class="footer-section">
                     <h4>Follow Me</h4>
                     <div class="social-icons">
-                        <a href="#" class="social-icon">
+                        <a href="https://www.linkedin.com/feed/" class="social-icon">
                             <i class="fab fa-linkedin"></i>
                         </a>
-                        <a href="#" class="social-icon">
+                        <a href="https://github.com/vivamini7" class="social-icon">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="#" class="social-icon">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#" class="social-icon">
+                        <a href="https://www.instagram.com/viva_mini7/" class="social-icon">
                             <i class="fab fa-instagram"></i>
                         </a>
                     </div>
